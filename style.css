@@ -348,10 +348,11 @@ header ul li .heada:hover,
     border-radius: 20px;
     transition: .4s;
     margin-bottom: 10px;
+       width: 150px;
 }
 
 .cards .card img {
-    width: 150px;
+    width: 100%;
     transition: .3s;
 }
 
@@ -400,6 +401,9 @@ header ul li .heada:hover,
         left: 50%;
 
         transform: translateX(-50%);
+    }
+               .skills {
+        height: calc(100% + 20%);
     }
 }
 
